@@ -19,10 +19,37 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Source\Private\Pch">
+      <UniqueIdentifier>{6b8f57e9-d57d-4f9b-aee6-fb679e2d3815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Icon">
+      <UniqueIdentifier>{122bdd30-73ea-4846-ba7a-a46d24a9bc88}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\WinMain.cpp">
       <Filter>Source\Private</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Pch.cpp">
+      <Filter>Source\Private\Pch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Pch.h">
+      <Filter>Source\Private\Pch</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BlankProject.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Icon\OlympusMons.ico">
+      <Filter>리소스 파일\Icon</Filter>
+    </Image>
   </ItemGroup>
 </Project>
